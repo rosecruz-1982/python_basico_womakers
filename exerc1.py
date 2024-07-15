@@ -1,8 +1,10 @@
-num1=int(input("Insira o primeiro número:"))
-num2=int(input("Insira o segundo número:"))
+#função soma
+def soma(a,b,c):
+    calculo= a+b+c
+    print(f' A soma dos números é: {calculo}')
 
-if num1>num2:
-    print("O maior número é :", num1)
-else:
-    print("O maior numero é:", num2)
-    
+a = int(input("Digite o primeiro número:"))
+b = int(input("Digite o segundo número:"))
+c = int(input("Digite o terceiro número:"))
+
+soma(a,b,c)
